@@ -1,0 +1,15 @@
+Delay
+Delay
+Delay
+Press:134+195
+PrintLine:gnome-terminal
+PrintLine:nano
+PrintLine:echo Payload Here.
+PrintLine:echo Test Successful!
+Press:128+120
+Print:y
+PrintLine:payload.sh
+PrintLine:chmod 777 ./payload.sh
+PrintLine:./payload.sh
+PrintLine:rm payload.sh
+PrintLine:exit

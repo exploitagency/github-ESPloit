@@ -1,0 +1,10 @@
+Delay
+Delay
+Delay
+Press:131+114
+PrintLine:cmd
+PrintLine:echo echo Payload Here.>>payload.bat
+PrintLine:echo echo Test Successful!>>payload.bat
+PrintLine:payload.bat
+PrintLine:del payload.bat
+PrintLine:exit

