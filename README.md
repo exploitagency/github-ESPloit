@@ -3,6 +3,8 @@
 
 <b><i>WiFi controlled HID Keyboard Emulator</i></b><br>
 <br>
+Most current code available from: http://exploit.agency/sploit/ESPloit <br>
+Demo at: https://legacysecuritygroup.com/index.php/categories/11-hardware/27-esploit <br>
 <br>
 ESPloit uses an ESP8266 to host a webserver for you to control the "payloads"(keypresses) that you send to the Arduino keyboard emulator.  The end result is not as good as a Hak5 USB Rubber Ducky and the language for writing the payloads is not as good as DuckyScript either.  However this is a really simple project to replicate for ~$15-$20 plus it has WiFi, its kind of like an IoT keyboard attack.  It is still a work in progress and its main purpose is to be a proof of concept.<br>
 <br>
