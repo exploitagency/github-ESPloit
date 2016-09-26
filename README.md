@@ -1,6 +1,6 @@
 # ESPloit
 
-
+Written by Corey Harding from http://www.LegacySecurityGroup.com<br><br>
 <b><i>WiFi controlled HID Keyboard Emulator</i></b><br>
 <br>
 Most current code available from: http://exploit.agency/sploit/ESPloit <br>
