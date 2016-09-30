@@ -9,6 +9,10 @@ Demo at: https://legacysecuritygroup.com/index.php/categories/11-hardware/27-esp
 ESPloit uses an ESP8266 to host a webserver for you to control the "payloads"(keypresses) that you send to the Arduino keyboard emulator.  The end result is not as good as a Hak5 USB Rubber Ducky and the language for writing the payloads is not as good as DuckyScript either.  However this is a really simple project to replicate for ~$15-$20 plus it has WiFi, its kind of like an IoT keyboard attack.  It is still a work in progress and its main purpose is to be a proof of concept.<br>
 <br>
 <br>
+<b>Software used:</b><br> 
+Arduino IDE: Arduino IDE 1.6.11<br> 
+Board Manager/Libraries: esp8266 by ESP8266 Community version 2.3.0<br> 
+<br> 
 <b>Setup Network:</b><br>
 By default ESPloit creates an access point with a hidden SSID of "Exploit" and a WPA2 PASSWORD of "DotAgency".<br>
 You can change this in the source of esp-sketch and even set it to join an existing network.<br>
