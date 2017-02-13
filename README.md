@@ -14,7 +14,6 @@ Arduino Beetle by CJMCU - ATmega32u4 Chip (HID Keyboard Emulator)<br>
 Optional: USB Hub or Enclosure (To Hide Device Inside Of)<br>
 <br><br>
 <b>Software used:</b><br>
- 
 Arduino IDE: Arduino IDE 1.6.11<br>
 Board Manager/Libraries: esp8266 by ESP8266 Community version 2.3.0<br>
  
