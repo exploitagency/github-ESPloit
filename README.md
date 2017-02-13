@@ -5,9 +5,14 @@ Written by Corey Harding from http://www.LegacySecurityGroup.com<br><br>
 <br>
 Demo at: https://legacysecuritygroup.com/index.php/categories/11-hardware/27-esploit <br>
 <br>
-ESPloit uses an ESP8266 to host a webserver for you to control the "payloads"(keypresses) that you send to the Arduino keyboard emulator.  The end result is not as good as a Hak5 USB Rubber Ducky and the language for writing the payloads is not as good as DuckyScript either.  However this is a really simple project to replicate for ~$15-$20 plus it has WiFi, its kind of like an IoT keyboard attack.  It is still a work in progress and its main purpose is to be a proof of concept.<br>
+ESPloit uses an ESP8266 to host a web server acting as a command and control server for the "payloads"(keypresses) that get sent to the Arduino which acts as a keyboard emulator. The end result is not as good as a Hak5 USB Rubber Ducky and the language for writing the payloads is not as good as DuckyScript either. However this is a really simple project to replicate for under $20 plus it has WiFi, its kind of like an IoT keystroke injection attack. It is still a work in progress and its main purpose is to be a proof of concept.
 <br>
 <br>
+<b>Hardware Required:</b><br>
+Adafruit Huzzah ESP8266 Board (Web Interface/Command and Control Server)<br>
+Arduino Beetle by CJMCU - ATmega32u4 Chip (HID Keyboard Emulator)<br>
+Optional: USB Hub or Enclosure (To Hide Device Inside Of)<br>
+<br><br>
 <b>Software used:</b><br>
  
 Arduino IDE: Arduino IDE 1.6.11<br>
