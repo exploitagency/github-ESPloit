@@ -11,7 +11,12 @@ ESPloit uses an ESP8266 to host a web server acting as a command and control ser
 <b>Hardware Required:</b><br>
 Adafruit Huzzah ESP8266 Board (Web Interface/Command and Control Server)<br>
 Arduino Beetle by CJMCU - ATmega32u4 Chip (HID Keyboard Emulator)<br>
-Optional: USB Hub or Enclosure (To Hide Device Inside Of)<br>
+<b>Alternative Hardware:</b><br>
+Cactus Micro rev2 (Esp03 & ATmega32u4 on one board)<br>
+<small>Cactus Micro rev2 Porting/Testing made possible by minkione</small>
+<br>
+<b>Optional Hardware:</b><br>
+USB Hub or Enclosure (To Hide Device Inside Of)<br>
 <br><br>
 <b>Software used:</b><br>
 Arduino IDE: Arduino IDE 1.6.11<br>
@@ -27,13 +32,15 @@ Also this is the time to choose an IP Address for the server while your in the s
 <br>
 <br>
 <b>Flash Boards:</b><br>
-arduino-sketch goes to the 32u4 based board<br>
-esp-sketch goes to the esp8266 device<br>
-<i>NOTE: On first boot of the ESP8266 it may take up to around 90 seconds while the SPIFFS file system is formatted for the first time.  Also the ESP8266 is a power hungry beast my FTDI cable only put out enough current to program it(Adafruit Huzzah Breakout Board HACKADAY Edition) but not enough to allow it to fully boot.  So use a a separate power supply to boot it.  I am using a YWROBOT MB102 at 3v3 on a breadboard for testing.<br>
+arduino-sketch.ino goes to the 32u4 based board<br>
+esp-sketch.ino goes to the esp8266 device<br>
+<i>Note for <u>Cactus Micro rev2:</u> If using this board then please use the arduino-sketch-cactus.ino and esp-sketch-cactus.ino sketches.</i><br>
+<i>NOTE: On first boot of the ESP8266 it may take up to around 90 seconds while the SPIFFS file system is formatted for the first time.  Also the ESP8266 is a power hungry beast my FTDI cable only put out enough current to program it(Adafruit Huzzah Breakout Board HACKADAY Edition) but not enough to allow it to fully boot.  So use a a separate power supply to boot it.  I am using a YWROBOT MB102 at 3v3 on a breadboard for testing.</i><br>
 <br>
 <br>
 <b>Wire it Up:</b><br>
 This assumes you are using an Adafruit Huzzah and a CJMCU Beetle Clone with the default software serial pins set in the sketches.<br>
+<i>Note: No wiring or pin changes are required when using a <u>Cactus Micro rev2</u>!</i><br>
 <b><i>Arduino --- ESP8266 Huzzah</i></b><br>
 --------------------------<br>
 <b><i>5v  ---  V+ Pin(Huzzah Breakout) or USB Pin(Feather)</i></b> //If your ESP8266 does not have a voltage regulator to convert 5v-3v3 then do not do this instead use a voltage regulator<br>
