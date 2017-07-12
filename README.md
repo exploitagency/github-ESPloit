@@ -1,5 +1,7 @@
 # ESPloit
 
+Please see ESPloitV2 for the latest version: https://github.com/exploitagency/ESPloitV2
+
 Written by Corey Harding from http://www.LegacySecurityGroup.com<br><br>
 <b><i>WiFi controlled HID Keyboard Emulator</i></b><br>
 <br>
